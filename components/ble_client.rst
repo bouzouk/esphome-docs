@@ -118,6 +118,7 @@ Example usage:
               characteristic_uuid: 6490FAFE-0734-732C-8705-91B653A081FC
               # List of bytes to write.
               value: [0x01, 0xab, 0xff]
+        turn_off_action:
           - ble_client.ble_write:
               id: my_ble_client
               service_uuid: F61E3BE9-2826-A81B-970A-4D4DECFABBAE
